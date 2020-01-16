@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: rgb(255, 207, 158);}
+.ClassInput{
+  color: rgb(191, 110, 29);
+  position: relative;
+  text-align:center;
+  top:322px;
+  font-family: courier;
+}
+
+.done {
+  position: absolute;
+  top:92%;
+  left:92%;
+  border: none;
+  background-color: rgb(255, 168, 82);
+  color: rgb(191, 110, 29);
+  padding: 6px 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: courier;
+}
+
+h1 {
+  position: relative;
+  top: 317px;
+  text-align: center;
+  font-size: 120%;
+  font-family: courier;
+  color: rgb(191, 110, 29);
+}
+
+
+</style>
+</head>
+<body>
+  <h1>Enter Class-Name:</h1>
+  <form>
+          <p class = "ClassInput">
+            <label>Class: </label>
+            <input type = "text"
+                   id = "Class"></input>
+          </p>
+      </form>
+<button class="done" onclick="window.location.href = 'addevaluation.html';">Done</button>
+</body>
+</html>
