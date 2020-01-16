@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: rgb(238, 209, 255);}
+.GradeInput{
+  color: rgb(105, 13, 158);
+  position: relative;
+  text-align:center;
+  top:322px;
+  font-family: courier;
+}
+.WeightInput{
+  color: rgb(105, 13, 158);
+  position: relative;
+  text-align:center;
+  top:325px;
+  font-family: courier;
+}
+
+.done {
+  id = 'done';
+  position: absolute;
+  top:92%;
+  left:92%;
+  border: none;
+  background-color: rgb(211, 135, 255);
+  color: rgb(105, 13, 158);;
+  padding: 6px 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: courier;
+}
+
+h1 {
+  position: relative;
+  top: 317px;
+  text-align: center;
+  font-size: 120%;
+  font-family: courier;
+  color: rgb(105, 13, 158);
+}
+
+
+</style>
+</head>
+<body>
+  <h1>Enter Values:</h1>
+  <form>
+          <p class = "GradeInput">
+            <label>Grade: </label>
+            <input type = "number"
+            id = "Grade"></input>
+          </p>
+          <p class = "WeightInput">
+            <label>Weight: </label>
+            <input type = "number"
+            id = "Weight"></input>
+          </p>
+      </form>
+<button class="done" onclick="window.location.href = 'addevaluation.html';">Done</button>
+</body>
+</html>
